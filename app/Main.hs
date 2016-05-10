@@ -27,8 +27,8 @@ import Data.Vector.Storable (toList, Vector)
 
 main :: IO ()
 main = do
-  -- xs <- mapM writeRGBA [("LuckiestGuy.ttf", 36)]
-  -- print xs
+  xs <- mapM writeRGBA [("LuckiestGuy.ttf", 36)]
+  print xs
   toRGBA "ship.png"
   
 toRGBA fn0 = do
